@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(100, 201, 241);
+}
+
+header , .grv-form{
+    min-height: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+input[type=text]{
+    width: 350px;
+}
+
+
+header{
+    margin-top: 150px;
+}
+
+.mtn-baslik{
+    font-size: 3rem;
+    font-family: monospace;
+}
+
+.form-item{
+    padding: 1rem;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+}
+
+.grv-ekleme-butonu{
+    color: brown;
+    cursor: pointer;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.grv-ekleme-butonu:hover{
+    color: rgb(110, 14, 14);
+    border-radius: 0px 15px 15px 0px;
+}
+
+.grv-ekleme-alani{
+    border-radius: 15px 0px 0px 15px;
+}
+
+.gorev-containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gorev-listesi{
+    list-style: none;
+    min-width: 40%;
+    
+}
+
+.gorev-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+    font-family: monospace;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 15px 0px 0px 15px;
+    
+}
+
+.gorevtanimlama{
+    flex: 1;
+    padding: .8rem;
+    
+}
+
+.butonlarım{
+    font-size: 3rem;
+    outline: none;
+    border: none;
+    
+}
+
+.btn_onaylandi{
+    background-color: rgb(9, 255, 0);
+    color: white;
+}
+
+.btn_onaylandi:hover{
+    opacity:60%;
+}
+
+.btn_silme{
+    color: white;
+    background-color: red;
+}
+
+.btn_silme:hover{
+    opacity:60%;
+    
+    
+}
+
+.grv-tanimlandi{
+    text-decoration: line-through;
+    opacity: 40%;
+    transition: .5s;
+}
+
+.gorev-item-cerceve{
+    border: 0px;
+    border-radius: 15px 0px 0px 15px;
+    
+}
+
+.fa-solid{
+    pointer-events: none;
+}
+
+
+
+
+
